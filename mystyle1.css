@@ -1,0 +1,53 @@
+html, body {
+    background-color: #333; /* Set full background */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure full height */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  /* Centered content styles */
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Takes up most of the viewport */
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .centered-content h2 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  
+  .centered-content p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  @media (max-width: 768px) {
+    .centered-content h2 {
+      font-size: 2em;
+    }
+  
+    .centered-content p {
+      font-size: 1.2em;
+    }
+  }
